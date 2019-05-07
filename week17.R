@@ -1,5 +1,5 @@
 #Week 17 - Anime data set
-#Ikuhara Kunihiko TV series against all other series grouped by year
+#Ikuhara Kunihiko's TV series against all other series, grouped by year
 
 library(tidyverse)
 library(gghighlight)
