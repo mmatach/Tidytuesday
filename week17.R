@@ -1,5 +1,8 @@
 #Week 17 - Anime data set
 #Ikuhara Kunihiko TV series against all other series grouped by year
+
+library(tidyverse)
+library(gghighlight)
 tidy_anime <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2019/2019-04-23/tidy_anime.csv")
 
 above1990 <- dplyr::filter(tidy_anime, type=="TV" & start_date>"1990-01-01")
