@@ -19,7 +19,8 @@ p<-ggplot(only_rel_sep, aes(x=year, y=score))+
               | title_english=="Sailor Moon SuperS"| title_english=="Penguindrum"
               | title_english=="Revolutionary Girl Utena"| title_english=="Yurikuma Arashi"
               | title_english=="Sarazanmai", 
-              label_key=title_english, 
+              label_key=title_english,
+              label_params=list(size=3, label.r=0.3), 
               use_group_by = FALSE,
               unhighlighted_colour=alpha("#aa82a7", 0.8))+
   geom_point(colour="black", size=2)
