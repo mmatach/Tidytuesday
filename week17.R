@@ -1,4 +1,4 @@
-#Week 17 - Anime data set
+#Week 17 - Anime data set from MAL database
 #Ikuhara Kunihiko's TV series against all other series, grouped by year
 
 library(tidyverse)
